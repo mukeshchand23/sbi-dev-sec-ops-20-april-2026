@@ -258,7 +258,7 @@ New total: `_______` (should be significantly lower)
 Compare image sizes:
 
 ```bash
-docker images | grep ems
+docker images | findstr ems
 ```
 
 ## Step 6 — Scan the Dockerfile for Misconfigs
